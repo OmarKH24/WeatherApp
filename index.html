@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <title>myTitle</title>
+
+        <!-- CSS Section -->
+            <!-- Bootstrap 5 -->
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+            <!-- Mine CSS -->
+            <link rel="stylesheet" href="assets/css/myStyle.css">
+
+            <!-- Icons file -->
+        <script src="https://use.fontawesome.com/7f2cf9a791.js"></script>
+
+        <!-- font file -->
+
+        <!-- Style Internal -->
+        
+        <style>
+
+            #full-content{
+
+                display: none;
+            }
+            .show{
+
+                display: block !important;
+            }
+            .hide{
+
+                display: none !important;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <!-- Loading Section -->
+        <div class="spinner-border text-primary position-absolute top-50 start-50" role="status" id="ld">
+            <span  class="sr-only">Loading...</span>
+          </div>
+
+        <!-- Content -->
+        <div class="content" id = "full-content">
+            <div class="main">
+                <div class="container">
+                    <div class="data">
+                        <div class="cityDet">
+                            <div id="styled-select">   
+                                <select name="group" id="group">
+                                    <option val="282239" selected="selected">Ramallah - PS</option>
+                                    <option val="2643743">London - GB</option>
+                                    <option val="3117735">Madrid - ESP</option>
+                                    <option val="2950159">Berlin - DE</option>
+                                    <option val="323786">Ankara - TUR</option>
+                                </select>   
+                            </div> 
+                            <h1 id="date"></h1>
+                        </div>
+                        <div class="temp">
+                            <div class="weather">
+                                <div id="w-img">
+                                    
+                                </div>
+                                <h2 id="wea-text"></h2>
+                                <p id="wea-det"></p>
+                            </div>
+                            <div id="deg">
+
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="wind-det">
+                                <h3>Wind</h3>
+                                <p id="wind"></p>
+                            </div>
+                            <div class="pressure-det">
+                                <h3>Pressure</h3>
+                                <p id="pres"></p>
+                            </div>
+                            <div class="humidity-det">
+                                <h3>Humidity</h3>
+                                <p id="hum"></p>
+                            </div>
+                            <div class="visib-det">
+                                <h3>Visibility</h3>
+                                <p id="visib"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+      </div>
+     
+
+
+
+
+        <!-- JS Section -->
+            <!-- BootStrap JS -->
+            <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Mine JS -->
+            <script src="assets/js/myJS.js"></script>
+    </body>
+</html>
